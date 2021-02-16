@@ -12,7 +12,15 @@
     />
     <link rel="stylesheet" href="style.css" />
   </head>
-  <body>
+  <body id="top">
+    <div class="main-header-nav" >
+      <ul class="nav-items">
+        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        <li  class="nav-item"><a class="nav-link" href="#intro">About Me</a></li>
+        <li class="nav-item"><a class="nav-link" href="#skills">Skills & Tools</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Projects</a></li>
+      </ul>
+    </div>
     <div class="top-container">
       <img class="first-cloud" src="cloud.png" alt="a cloud" />
       <h1>I'm Kenneth.</h1>
@@ -20,15 +28,15 @@
       <img class="second-cloud" src="cloud.png" alt="a cloud" />
       <img class="mountain" src="mountain.png" alt="a mountain" />
     </div>
-    <div class="middle-container">
+    <div  class="middle-container">
       <div class="profile">
         <img class="programmer" src="programmer.png" alt="">
-        <h2>Hello.</h2>
+        <h2 id="intro">Hello.</h2>
         <p class="middle-container-paragraph">My name is Kenneth,I am from 🇲🇾 Malaysia, an enthusiast for frontend web development. This is my very first website I build myself with a tiny-tiny bit of guidance, nice to meet you and thanks a lot for visiting my first ever website</p>
       </div>
-      <hr>
-      <div class="skills">
-        <h2 class="second-heading">My Skills.</h2>
+      <hr id="skills">
+      <div  class="skills">
+        <h2  class="second-heading">My Skills.</h2>
         <div class="skill-row">
           <img class="programming" src="programming.png" alt="">
           <h3>HTML & CSS</h3>
@@ -41,10 +49,10 @@
         </div>
       </div>
       <hr>
-      <div class="contact-me">
-        <h2>Get In Touch</h2>
+      <div  class="contact-me">
+        <h2 id="contact">Get In Touch</h2>
         <h3>If you are a big fan of coffee, you're in for a treat!</h3>
-        <p class="contact-me-paragraph">I hope to get to know you better as I am on this long journey being a frontend web-developer. Check back soon for more surprises like responsiveness??hmmm...</p>
+        <p class="contact-me-paragraph">I hope to get to know you better as I am on this long journey being a frontend web-developer. <br> Check back soon for more surprises like responsiveness??hmmm...</p>
         <a target="_blank" class="btn" href="mailto:kennethgannnn@gmail.com">CONTACT ME</a>
         
       </div>
@@ -53,8 +61,7 @@
       <a target="_blank" class="footer-link" href="https://www.facebook.com/kennethDeVirgin/">Facebook</a>
       <a target="_blank" class="footer-link" href="https://twitter.com/kennethkenken1">Twitter</a>
       <a target="_blank" class="footer-link" href="https://www.instagram.com/ganganken/">Instagram</a>
+      <a class="footer-link" href="#top">Back To Top</a>
       <p class="kenneth">Made with ❤️ by © 2021 Kenneth Gan.</p>
     </div>
-    
-   
 </html>
