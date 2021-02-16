@@ -3,15 +3,41 @@ body {
   font-family: "Sriracha", cursive;
   font-size: 1.25rem;
   color: #40514e;
-
   text-align: center;
+}
+.main-header-nav {
+  width: 100%;
+  background-color: #bbdfc8;
+  position: sticky;
+  top: 0;
+}
+li.nav-item {
+  display: inline-block;
+}
+a.nav-link {
+  text-decoration: none;
+  margin: 10px;
+  color: #ff5e78;
+}
+a.nav-link:hover,
+a.nav-link:active {
+  color: #30e3cb;
+  border-bottom: 3px dotted #ffdcdc;
+}
+.nav-items {
+  margin: 0 auto;
+  text-align: right;
 }
 
 .top-container {
   background-color: #bbdfc8;
   padding-top: 100px;
-
   position: relative;
+}
+.first-cloud {
+  position: absolute;
+  left: 56.25rem;
+  top: 1.25rem;
 }
 h1 {
   margin: 50px auto 0 auto;
@@ -25,23 +51,19 @@ h2 {
   color: #ff5e78;
   font-weight: normal;
 }
-h3 {
-  color: #ff5e78;
-}
-.first-cloud {
-  position: absolute;
-  left: 900px;
-  top: 20px;
-}
-p {
-  line-height: 2;
-}
-
 .second-cloud {
   position: absolute;
   bottom: 320px;
   left: 500px;
 }
+h3 {
+  color: #ff5e78;
+}
+
+p {
+  line-height: 2;
+}
+
 .footer-link {
   color: #ff5e78;
 }
@@ -60,6 +82,12 @@ p {
   margin: auto;
   text-align: left;
 }
+.skill-row-paragraph::first-letter,
+.middle-container-paragraph::first-letter,
+.contact-me-paragraph::first-letter {
+  font-size: 2.1875rem;
+}
+
 .programming {
   width: 25%;
   float: right;
@@ -78,12 +106,12 @@ p {
   width: 100%;
   background-color: #bbdfc8;
 }
-.footer-link {
+a.footer-link {
   text-decoration: none;
   margin: 0 5px;
   font-size: 1rem;
 }
-.footer-link:hover {
+a.footer-link:hover {
   color: #30e3cb;
 }
 .kenneth {
